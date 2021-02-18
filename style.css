@@ -43,6 +43,11 @@
   flex-direction: column;
 }
 
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .col-red {
   color: #DB4747;
 }
@@ -60,4 +65,8 @@
   height: 0px;
   border: 1px solid #FFFFFF;
   margin: 20px 0;
+}
+
+.fab {
+  font-size: 25px;
 }
