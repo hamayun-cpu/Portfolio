@@ -77,7 +77,7 @@ height: 150px;
 background: url(./images/co-1.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(./images/co-1.png);
 background-size: cover;
 background-repeat: no-repeat;
-background-position: center center;
+background-position: top center;
 
 
 border: 0.333333px solid rgba(255, 255, 255, 0.1);
