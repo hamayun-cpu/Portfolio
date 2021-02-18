@@ -72,19 +72,48 @@
 }
 
 .bg-pic-1 {
-height: 150px;
+  height: 150px;
+  background: url(./images/co-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
 
-background: url(./images/co-1.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(./images/co-1.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: top center;
-
-
-border: 0.333333px solid rgba(255, 255, 255, 0.1);
+.lin-bg {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 45%, #000000 100%);
+  height: 100%;
 }
 
 .project-title {
   font-weight: 200;
   font-size: 20px;
   line-height: 80%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.pad-5 {
+  padding: 6%;
+}
+
+.tech-box {
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+}
+
+.pad-2 {
+  padding: 3px;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.w-80 {
+  width: 90%;
 }
