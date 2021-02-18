@@ -70,3 +70,21 @@
 .fab {
   font-size: 25px;
 }
+
+.bg-pic-1 {
+height: 150px;
+
+background: url(./images/co-1.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(./images/co-1.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-title {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 80%;
+}
