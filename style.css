@@ -1,0 +1,63 @@
+.black-bg {
+  background-color: #1B1B1E;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-1 {
+  min-width: 280px;
+  padding: 14px;
+}
+
+.col-white{
+  color: #FFFFFF;
+}
+
+.number-1{
+  opacity: 0.2;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.font-normal {
+  font-style: normal;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.name-container {
+  font-family: Playfair Display;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.d-flex-sm {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-red {
+  color: #DB4747;
+}
+
+.work-line {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 40px;
+}
+
+.half-hr {
+  width: 70px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  margin: 20px 0;
+}
