@@ -72,7 +72,7 @@
 }
 
 .bg-pic-1 {
-  height: 150px;
+  height: 162px;
   background: url(./images/co-1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -116,4 +116,21 @@
 
 .w-80 {
   width: 90%;
+}
+
+.see-proj {
+  display: flex;
+  align-items: center;
+  background-color: #DB4747;
+  width: fit-content;
+  padding: 6px;
+  margin-top: 48px;
+}
+
+.ml-1 {
+  margin-left: 8px;
+}
+
+.no-decor {
+  text-decoration: none;
 }
