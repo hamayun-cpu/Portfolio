@@ -72,17 +72,54 @@
 }
 
 .bg-pic-1 {
-  height: 162px;
+  min-width: 306px;
   background: url(./images/co-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  border-top: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-pic-2 {
+  min-width: 306px;
+  background: url(./images/tc-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-pic-3 {
+  min-width: 306px;
+  background: url(./images/ss-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-pic-4 {
+  min-width: 306px;
+  background: url(./images/nw-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-pic-5 {
+  min-width: 306px;
+  background: url(./images/tnw-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-top: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
 
 .lin-bg {
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 45%, #000000 100%);
   height: 100%;
+  padding: 4% 0 4% 6%;
 }
 
 .project-title {
@@ -93,10 +130,6 @@
 
 .mt-30 {
   margin-top: 30px;
-}
-
-.pad-5 {
-  padding: 6%;
 }
 
 .tech-box {
@@ -133,4 +166,8 @@
 
 .no-decor {
   text-decoration: none;
+}
+
+.pr-5 {
+  padding-right: 5px;
 }
