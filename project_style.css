@@ -1,0 +1,64 @@
+.black-bg {
+  background-color: #1B1B1E;
+  font-family: 'Poppins', sans-serif;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.col-white {
+  color: white;
+}
+
+.just-cont-end {
+  justify-content: flex-end;
+}
+
+.just-cont-sp-btw {
+  justify-content: space-between;
+}
+
+.mr-5 {
+  margin-right: 18px;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.far{
+  font-weight: 1;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.tech-box {
+  background: rgba(0, 0, 0.1);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.pad-2 {
+  padding: 5px;
+}
+
+.image-box {
+  width: 100%;
+  height: auto;
+}
