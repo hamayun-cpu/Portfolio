@@ -31,8 +31,20 @@
   margin-top: 20px;
 }
 
+.ml-2 {
+  margin-left: 2px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .far{
   font-weight: 1;
+}
+
+.fas{
+  font-weight: 100;
 }
 
 .title {
@@ -42,6 +54,10 @@
 
 .w-90 {
   width: 90%;
+}
+
+.max-w {
+  max-width: 600px;
 }
 
 .m-auto {
@@ -61,4 +77,20 @@
 .image-box {
   width: 100%;
   height: auto;
+}
+
+.pad-5 {
+  padding: 5%;
+}
+
+.col-red {
+  color: #DB4747;
+}
+
+.no-decor {
+  text-decoration: none;
+}
+
+.no-decor:hover {
+  text-decoration: underline;
 }
