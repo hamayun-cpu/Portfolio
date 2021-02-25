@@ -286,3 +286,22 @@ input:active {
   font-weight: bold;
   border-radius: 3px;
 }
+
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mt-90 hr{
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transform: rotate(180deg);
+}
+
+.ml-2 {
+  margin-left: 5px;
+}
+
+.mt-15 {
+ margin-top: 20px;
+}
