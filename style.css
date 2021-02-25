@@ -171,3 +171,118 @@
 .pr-5 {
   padding-right: 5px;
 }
+
+.grid-item {  
+  background: #212123;
+  box-shadow: 0px 1.91837px 23.0204px rgba(0, 0, 0, 0.25);
+  border-radius: 3.83673px;
+  width: 70%;
+  margin: 0 auto 30px auto;
+  padding: 8%;
+}
+
+.col-green {
+  color: #7bff00;
+}
+
+.col-blue {
+  color: #3586ff;
+}
+
+.col-yellow {
+  color: #fcff35;
+}
+
+.col-red {
+  color: #cc1818;
+}
+
+.green-back {
+  background: rgba(111, 238, 38, 0.244);
+}
+
+.blue-back {
+  background: rgba(12, 80, 228, 0.244);
+}
+
+.yellow-back {
+  background: rgba(206, 176, 8, 0.244);
+}
+
+.red-back {
+  background: rgba(250, 26, 10, 0.244);
+}
+
+.back {
+  width: fit-content;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  font-weight: 300;
+}
+
+.type {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lang {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  font-size: 18px;
+}
+
+.mr-3 {
+  margin-right: 5px;
+}
+
+.col-gray {
+  color: #7D7C84;
+}
+
+.gray-back {
+  background: #212123;
+  margin-top: 80px;
+  padding: 6%;
+}
+
+input {
+  background: inherit;
+  border: none;
+  color: white;
+  font-size: 20px;
+  opacity: 0.4;
+}
+
+input:active {
+  border: none;
+}
+
+.input-pad {
+  padding: 5px 16px;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.h-50 {
+  height: 112px;
+  width: 90%;
+  border: none;
+}
+
+.btn {
+  height: 44px;
+  background: #DB4747;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 3px;
+}
