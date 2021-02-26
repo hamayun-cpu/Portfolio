@@ -58,6 +58,7 @@
   font-size: 18px;
   line-height: 21px;
   margin-top: 40px;
+  white-space: nowrap;
 }
 
 .half-hr {
@@ -69,6 +70,14 @@
 
 .fab {
   font-size: 25px;
+}
+
+.d-none-sm {
+  display: none;
+}
+
+.d-none-sm {
+  display: none;
 }
 
 .bg-pic-1 {
@@ -308,4 +317,77 @@ input:active {
 
 .font-bold {
   font-weight: bold;
+}
+
+.align-end {
+  align-self: flex-start;
+}
+
+@media only screen and (min-width: 768px) {
+  .row-sml {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 60px;
+  }
+
+  .align-end {
+    align-self: flex-end;
+  }
+
+  .w-70-lg {
+    width: 50%;
+    margin: 90px 0 70px 32%;
+  }
+
+  .d-flex-sm {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mt-0-lg {
+    margin-top: 0;
+  }
+
+  .half-hr {
+    margin: 10px 26px;
+  }
+
+  .w-m-lg {
+    width: 52%;
+  }
+
+  .mt-20-lg {
+    margin-top: 50px;
+  }
+
+  .pl-30{
+    padding-left: 16%;  
+  }
+
+  .row-2-sml {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 80px;
+  }
+
+  .number-1 {
+    font-size: 70px;
+  }
+
+  .name-container {
+    font-size: 77px;
+  }
+
+  .d-none-sm {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+  }
+
+  .h-50-lg {
+    height: 50%;
+  }
+
 }
