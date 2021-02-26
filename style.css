@@ -343,6 +343,7 @@ input:active {
   .d-flex-sm {
     display: flex;
     flex-direction: row;
+    max-height: 684px;
   }
 
   .mt-0-lg {
@@ -382,12 +383,69 @@ input:active {
 
   .d-none-sm {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 35%;
   }
 
   .h-50-lg {
     height: 50%;
+  }
+
+  .h-w-100 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .bg-pic-3 {
+    width: 65%;
+  }  
+
+  .lin-bg {
+    padding: 0;
+  }
+
+  .padd {
+    padding: 5%;
+    height: 85.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .see-proj {
+    margin: 0;
+    padding: 8px;
+  }
+
+  .project-title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 82%;
+  }
+
+  .tech-box {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .w-80 {
+    width: 96%;
+    margin-top: 40px;
+  }
+
+}
+
+@media only screen and (min-width: 1023px) {
+  .see-proj {
+    font-size: 30px;
+  }
+
+  .project-title {
+    font-size: 50px;
+  }
+
+  .tech-box {
+    font-size: 23px;
   }
 
 }
