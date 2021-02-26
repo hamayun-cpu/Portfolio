@@ -305,3 +305,7 @@ input:active {
 .mt-15 {
  margin-top: 20px;
 }
+
+.font-bold {
+  font-weight: bold;
+}
