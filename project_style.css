@@ -11,6 +11,18 @@
   display: flex;
 }
 
+.d-flex-sml {
+  display: flex;
+}
+
+.d-flex-ll {
+  display: none;
+}
+
+.just-cont-spa-btw {
+  justify-content: space-between;
+}
+
 .col-white {
   color: white;
 }
@@ -93,4 +105,76 @@
 
 .no-decor:hover {
   text-decoration: underline;
+}
+
+.pos-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.d-flex-lgg {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) { 
+  .d-flex-sml {
+    display: none;
+  }
+
+  .d-flex-lg {
+    display: flex;
+  }
+  .pad-5 {
+    padding: 20px;
+  }
+
+  .w-70 {
+    width: 65%;
+  }
+
+  .w-30 {
+    width: 35%;
+  }
+
+  .ml-30-lg {
+    margin-left: 30px;
+  }
+
+  .d-flex-lgg {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .mr-3 {
+    margin-right: 8px;
+  }
+
+  .low-opac {
+    opacity: 0.7;
+  }
+
+  .image-box {
+    max-height: 552px;
+    min-height: 350px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .tech-box {
+    font-size: 20px;
+  }
+
+  .col-red {
+    font-size: 20px;
+  }
+
+  .d-flex-ll {
+    display: flex;
+  }
 }
